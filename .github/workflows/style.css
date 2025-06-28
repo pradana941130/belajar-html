@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+
+body {
+	font: 16px/28px italic, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(C:/Users/HPG4/Desktop/HTML/latihan13/Danau.jpg);
+	color: #333;
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: white;
+
+}
+
+
+
+.header {
+	padding: 20px;
+	padding-bottom: 0;
+}
+
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: chartreuse;
+	color: darkblue;
+	transition: .3s ease-in-out;
+	transition-delay: .1s;
+	border-radius: 8px;
+}
+
+.hero {
+	height: 320px;
+	background-image: url(C:/Users/HPG4/Desktop/HTML/latihan13/komputer.jpg);
+	background-size: cover;
+	background-position: 0 -250px;
+	border-top: 5px solid chartreuse;
+	border-bottom: 5px solid lawngreen;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2 {
+	text-decoration: none;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.main .penulis {
+	font-size: 10px;
+	margin-top: -5px;
+}
+
+.main .penulis a{
+	color: salmon;
+	text-decoration: none;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: purple;
+}
+
+/* sidebar */
+.sidebar {
+
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.sidebar h3 {
+	font-weight: bold;
+	color: #666;
+}
+
+.sidebar img {
+
+	width: 100px;
+	height: 120px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar p {
+
+	font: 12px/18px arial;
+}
+
+.footer {
+	background-color: #333;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* navbar about */
+.utama {
+	font: 16px/28px italic, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(C:/Users/HPG4/Desktop/HTML/latihan13/Penguins.jpg);
+	color: #f7f7f7;
+	background-size: cover;
+}
+
+.about {
+	height: 100vh;
+	
+}
+
+
+.header2 {
+	padding: 20px;
+	padding-bottom: 0;
+
+}
+
+.header2 .title {
+	margin-left: 70vh;
+	font-size: 40px;
+	font-weight: bold;
+	color:limegreen;
+}
+
+.header2 .paragraf {
+	font-size: 16px;
+	color: white;
+	padding-top: 40px;
+	
+}
+
+.header2 a {
+	text-decoration: none;
+	color: darkorange;
+	padding: 3px;
+}
+
+.header2 a:hover {
+	background-color: chartreuse;
+	color: darkblue;
+	transition: .3s ease-in-out;
+	transition-delay: .3s;
+	border-radius: 10px;
+}
+/* akhir about */
+
+/* awal products*/
+
+.badan {
+	font: 16px/28px italic, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(C:/Users/HPG4/Desktop/HTML/latihan13/mywife.jpg);
+	color: #f7f7f7;
+}
+
+.products {
+	height: 100vh;
+	
+}
+
+
+.header3 {
+	padding: 20px;
+	padding-bottom: 0;
+
+}
+
+.header3 h2 {
+	margin-left: 60vh;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	padding: 3px;
+}
+
+.header3 h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	padding-top: 20px;
+}
+
+.header3 h3 p {
+	color: darkblue;
+
+}
+
+
+.header3 a {
+	color: white;
+}
+
+.header3 ol li {
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.header3 a:hover {
+	background-color: chartreuse;
+	color: white;
+	transition: .3s ease-in-out;
+	transition-delay: .3s;
+	border-radius: 10px;
+}
+
+/* akhir products */
+
+/* awal contact */
+
+.container2 {
+	background-image: url(C:/Users/HPG4/Desktop/HTML/latihan13/Tulips.jpg);
+	background-size: cover;	
+}
+
+.konten h1 {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 15px;
+	padding-top: 5px;
+
+}
+
+.konten a {
+	color: darkblue;
+	font-weight: bold;
+	margin-left: 15px;	
+}
+
+.konten a:hover {
+	background-color: chartreuse;
+	transition: .3s ease-in-out;
+	transition-delay: .1s;
+	border-radius: 1px;
+
+}
+
+.img-konten {
+	padding-top: 10px;
+	width: 50px;
+	height: 50px;
+	border-image: 4px;
+/* settingan bayangan box shadow */
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+/* akhir contact */
